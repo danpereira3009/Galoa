@@ -1,0 +1,46 @@
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #671616;
+    overflow-x: hidden;
+    /* bottom: -36.04%; */
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.img__sidebar {
+    width: 250px;
+}
+
+nav {
+    background-color: white;
+    width: 250px;
+    height: 100%;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    padding: 10px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	border-bottom: 1px solid #9799A6;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+a:hover {
+    background-color: #d8ccb2;
+    transition: 0.5s;
+    text-decoration: none;
+    border: solid 1px rgb(214, 201, 201);
+}
