@@ -1,0 +1,75 @@
+.video {
+    margin-left: 250px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: white;
+}
+
+.painel__video {
+    height: 100%;
+    width: 250px
+}
+
+.texto__video {
+    color: #ED7839;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.botao__download {
+    background-color: #ED7839;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.botao__estrela {
+    background-color: #ED7839;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.botao__doi {
+    background-color: #ED7839;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.detalhes {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.painel {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid 1px black;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 340px;
+    flex-direction: column;
+}

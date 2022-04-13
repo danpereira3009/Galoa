@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Estágio</title>
 
+
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/resumo.css">
 </head>
 
 <header>
@@ -18,16 +22,28 @@
       <h1>Anais do 13º Simpósio Latino Americano de Ciências de Alimnentos</h1>
       <p>ISSN: 1234-5678</p>  
     </div>
-
-    <div class="bem__vindo">
-        Bem Vindo</br>
-        e-mail@provedor.com.br
+    
+      <div> 
+        <select class="idiomas">
+          <option disabled selected>Selecione o Idioma</option>
+            <option value="Português"> Português </option>
+            <option value="Inglês"> Inglês / English </option>
+            <option value="Alemão"> Alemão / Deutsch </option>
+            <option value="Francês"> Francês / Français </option>
+            <option value="Espanhol"> Espanhol / Español </option>
+        </select>
     </div>
 
-    <img src="img/img-rosto.png" class="img-rosto" alt="imagem do rosto de uma mulher">
+    <div class="login">
+        <p class="bem__vindo">Bem Vindo</br>
+          nome@provedor.com.br
+        </p>
+        
+          <a href="#" target="_blank" class="botao__login">
+            <img class="icone__login" src="img/img-rosto.png" alt="icone de login">
+          </a>
+    </div>
 </section>
-      
-    </div> 
 </header>
 
 <body>
@@ -36,14 +52,90 @@
     <img class="img__sidebar" src="img/nav_img1.png" alt="SLACA 2019"></br>
     <img class="img__sidebar" src="img/nav-img2.png" alt="logo">
     <ul>
-      <li><a href="#">Apresentação</a></li>
-      <li><a href="#">Comitês</a></li>
-      <li><a href="#">Autores</a></li>
-      <li><a href="#">Eixo Temáticos</a></li>
-      <li><a href="#">Trabalhos</a></li>
-      <li><a href="#">Contato</a></li>
+      <li><a class="sidebar__nav" href="#">Apresentação</a></li>
+      <li><a class="sidebar__nav" href="#">Comitês</a></li>
+      <li><a class="sidebar__nav" href="#">Autores</a></li>
+      <li><a class="sidebar__nav" href="#">Eixo Temáticos</a></li>
+      <li><a class="sidebar__nav" href="#">Trabalhos</a></li>
+      <li><a class="sidebar__nav" href="#">Contato</a></li>
     </ul>
   </nav>
 </section>
+
+<!-- seção do painel com vídeo e textos -->
+
+<section class="video">
+<div> 
+  <h1 class="texto__video">Análise sensorial de preparações funcionais desenvolvidas</br>
+    para escolares entre 09 e 15 anos, do município de Campinas/SP
+  </h1>
+
+  <div class="box__video">
+    <!-- link do video -->
+    <iframe width="800" height="400" src="https://www.youtube.com/embed/wuDHyfpJR1U?start=5" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+  <!-- seção do vídeo -->
+
+<div class="painel__video">
+
+    <div class="botoes">
+      <button class="botao__download">Download</button>
+      <button class="botao__estrela">X</button>
+      <button class="botao__doi">X</button>
+    </div>
+
+    <h5>COMO CITAR ESSE TRABALHO?</h5>
+
+    <div> 
+      <h3 class="detalhes">Detalhes</h3>
+    </div>
+
+    <div class="painel">
+      Tipo de Apresentação:<strong>Pôster</strong></br>
+      Eixo temático:<strong>Alimentação e saúde (AS)</strong></br>
+      Palavras-chaves: <strong>Alimentos funcionais,</br>
+      alimentação escolar.</strong></br></br>
+
+      <strong>Autores:</strong></br>
+      Galileo Galilei¹</br>
+      Berta Lange de Morretes²</br>
+      Isaac Newton³</br>
+      Cesar Lattes¹</br>
+      Stephen Hawking⁴</br></br>
+
+      ¹Universidade Estadual de Campinas</br>
+      ²Universidade de São Paulo</br>
+      ³Instituto Nacional de Pesquisas Espaciais</br>
+      ⁴Universidade Federal do Rio de Janeiro
+    </div>
+</div> 
+</section>
+
+<!-- seção Resumo -->
+<section>
+  <div class="resumo">
+    Resumo
+  </div>
+
+  <div class="resumo__texto">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. 
+    Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. 
+    Fusce auctor eros sed magna ultricies gravida. 
+    Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. 
+    Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  
+    Phasellus condimentum orci id leo condimentum lobortis et non lorem. 
+    Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, 
+    ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum 
+    lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula 
+    in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum 
+    nisl, vel aliquet enim accumsan sit ametl accumsant...
+  </div>
+</section>
+
 </body>
 </html>

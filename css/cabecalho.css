@@ -1,13 +1,38 @@
 .cabecalho {
     margin-left: 250px;
     display: flex;
-   
     justify-content: space-between;
     padding: 15px;
-    background-color: #fbffe3;
+    background-color: #FDF1EB;
 }
 
-.img-rosto {
+.login {
+    display: flex;
+    padding:10px;
+}
+
+.bem__vindo {
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.icone__login {
     border-radius: 100%;
 }
 
+.botao__login {
+    border: none;
+    background-color: #fbffe3;
+}
+
+.botao__login:hover {
+    opacity: .7;
+    transition: 1s;
+}
+
+.idiomas {
+    margin-top: 20px;
+    width: 12rem;
+    font-size: 1.2rem;
+    justify-content: center;
+}

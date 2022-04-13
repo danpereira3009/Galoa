@@ -1,0 +1,11 @@
+.resumo {
+    margin-left: 250px;
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+    background-color: #FDF1EB;
+    font-weight: bold;
+    font-size: 20px;
+}
+    
+    
