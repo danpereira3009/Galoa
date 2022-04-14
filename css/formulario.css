@@ -1,26 +1,69 @@
-/* .resumo {
-    margin-left: 250px;
-    display: flex;
-    justify-content: left;
+.formulario {
+    margin-left: 270px;
+    width: 64em;
+    height: 20em;
+    border: 1px solid #ECECEC;
+    margin-bottom: 5em;
+}
+
+.discussoes {
     padding: 15px;
     background-color: #FDF1EB;
     font-weight: bold;
     font-size: 20px;
     border: 1px solid #ECECEC;
-    width: 51.5em;
-   
 }
     
-.resumo__texto {
-    margin-left: 250px;
+.caixa__topico {
     display: flex;
-    justify-content: left;
-    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     padding: 15px;
     background-color: white;
     font-weight: normal;
     font-size: 20px;
-    align-self: stretch;
     border: 1px solid #ECECEC;
-    width: 51.5em;
-} */
+    /* border: 1px solid #ECECEC; */
+}
+
+.img__topico {
+    display: flex;
+    justify-content: center;
+}
+
+.topico__img1 {
+    margin: 25px 15px 25px 15px;
+}
+
+.topico__img2 {
+    margin: 25px 15px 25px 15px;
+}
+
+.topico__img3 {
+    margin: 25px 15px 25px 15px;
+}
+
+.caixa__topico h3 {
+    padding: 15px;
+    color: #ED7839;
+}
+
+.botao__formulario {
+    background-color: #ED7839;
+    padding: 10px;
+    border-radius: 5%;
+    color: white;
+    width: 80px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 8em;
+    cursor: pointer;
+}
+
+.caixa-botao__formulario {
+    display: flex;
+    justify-content: center;  
+}
+

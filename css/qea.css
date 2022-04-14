@@ -1,0 +1,34 @@
+.caixa__qea {
+    margin-left: 270px;
+    border: 1px solid #ECECEC;
+    width: 64em;
+    height: 12em;
+}
+ 
+.caixa-qea__assunto h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ED7839;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.caixa-qea__assunto p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+.caixa-qea__assunto h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.caixa-qea__assunto button {
+   margin-left: 15px;
+   margin-top: 15px;
+}
+
+.caixa-qea__assunto button:hover {
+    cursor: pointer;
+    opacity: .8;
+ }

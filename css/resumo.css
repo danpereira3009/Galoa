@@ -1,26 +1,23 @@
 .resumo {
-    margin-left: 250px;
-    display: flex;
-    justify-content: left;
+    margin-left: 270px;
+    width: 64em;
+    height: 10em;
+    border: 1px solid #FDF1EB;
+    margin-bottom: 10em;
+}
+
+.caixa__resumo {
     padding: 15px;
     background-color: #FDF1EB;
     font-weight: bold;
     font-size: 20px;
     border: 1px solid #ECECEC;
-    width: 51.5em;
-   
 }
     
 .resumo__texto {
-    margin-left: 250px;
-    display: flex;
-    justify-content: left;
-    position: absolute;
     padding: 15px;
     background-color: white;
     font-weight: normal;
     font-size: 20px;
-    align-self: stretch;
     border: 1px solid #ECECEC;
-    width: 51.5em;
 }

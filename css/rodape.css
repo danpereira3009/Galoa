@@ -1,0 +1,40 @@
+.rodape {
+    display: flex;
+    margin: 50px 0 0 270px;
+    width: 62em;
+    height: 10em;
+    padding: 20px;
+}
+
+.rodape__esquerda {
+    color: #692764;
+    font-weight: bold;
+}
+
+.rodape__galoa {
+    margin-left: 18px;
+    font-size: 3rem;
+}
+
+.botao-saiba__mais {
+    padding: 8px;
+    width: 10rem;
+    color: white;
+    font-size: 1rem;
+    margin: 10px 15px 15px 5px;
+    background-color: #692764;
+    border-radius: 5%;
+}
+
+.botao-saiba__mais:hover {
+   background-color: white;
+   color: black;
+   transition: 1s;
+   cursor: pointer;
+}
+
+.rodape__texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1rem;
+    font-size: 18px
+}

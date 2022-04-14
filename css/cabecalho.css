@@ -1,28 +1,47 @@
 .cabecalho {
-    margin-left: 250px;
+    margin-left: 270px;
     display: flex;
     justify-content: space-between;
     padding: 15px;
     background-color: #FDF1EB;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #ECECEC;
+    width: 50em;
+}
+
+.texto__cabecalho-1 {
+    font-size: 18px;
+}
+
+.texto__cabecalho-2 {
+    font-size: 24px;
+}
+
+.texto__cabecalho-3 {
+    font-size: 14px;
 }
 
 .login {
     display: flex;
-    padding:10px;
+    padding: 10px;
 }
 
 .bem__vindo {
-    margin-right: 20px;
-    font-size: 1.2rem;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #FDF1EB;
 }
 
 .icone__login {
     border-radius: 100%;
+    background-color: #FDF1EB;
 }
 
 .botao__login {
     border: none;
-    background-color: #fbffe3;
+    background-color: #FDF1EB;
 }
 
 .botao__login:hover {
@@ -32,7 +51,7 @@
 
 .idiomas {
     margin-top: 20px;
-    width: 12rem;
-    font-size: 1.2rem;
-    justify-content: center;
+    margin-right: 10px;
+    width: 8rem;
+    font-size: 1rem;
 }

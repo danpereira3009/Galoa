@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Estágio</title>
 
-
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/resumo.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/qea.css">
+
 </head>
 
 <header>
+  <!-- seção do cabeçalho -->
 <section class="cabecalho">
+  
 		<div>
-      <p>Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
-      <h1>Anais do 13º Simpósio Latino Americano de Ciências de Alimnentos</h1>
-      <p>ISSN: 1234-5678</p>  
+      <p class="texto__cabecalho-1">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+      <h1 class="texto__cabecalho-2">Anais do 13º Simpósio Latino Americano de Ciências de Alimnentos</h1>
+      <p class="texto__cabecalho-3">ISSN: 1234-5678</p>  
     </div>
     
       <div> 
         <select class="idiomas">
-          <option disabled selected>Selecione o Idioma</option>
-            <option value="Português"> Português </option>
-            <option value="Inglês"> Inglês / English </option>
-            <option value="Alemão"> Alemão / Deutsch </option>
-            <option value="Francês"> Francês / Français </option>
-            <option value="Espanhol"> Espanhol / Español </option>
+          <option disabled selected>Idioma</option>
+            <option value="Português">Português</option>
+            <option value="Inglês">Inglês</option>
+            <option value="Alemão">Alemão</option>
+            <option value="Francês">Francês</option>
+            <option value="Espanhol">Espanhol</option>
         </select>
     </div>
 
@@ -49,8 +54,8 @@
 <body>
 <section class="sidebar">
   <nav>
-    <img class="img__sidebar" src="img/nav_img1.png" alt="SLACA 2019"></br>
-    <img class="img__sidebar" src="img/nav-img2.png" alt="logo">
+    <img class="img__sidebar1" src="img/nav_img1.png" alt="SLACA 2019"></br>
+    <img class="img__sidebar2" src="img/nav-img2.png" alt="logo">
     <ul>
       <li><a class="sidebar__nav" href="#">Apresentação</a></li>
       <li><a class="sidebar__nav" href="#">Comitês</a></li>
@@ -94,29 +99,31 @@
     </div>
 
     <div class="painel">
-      Tipo de Apresentação:<strong>Pôster</strong></br>
+      Tipo de Apresentação: <strong>Poster</strong></br>
       Eixo temático:<strong>Alimentação e saúde (AS)</strong></br>
       Palavras-chaves: <strong>Alimentos funcionais,</br>
-      alimentação escolar.</strong></br></br>
+      alimentação escolar.</strong></br>
 
-      <strong>Autores:</strong></br>
+      <strong>Autores:</strong>
       Galileo Galilei¹</br>
       Berta Lange de Morretes²</br>
       Isaac Newton³</br>
       Cesar Lattes¹</br>
       Stephen Hawking⁴</br></br>
-
-      ¹Universidade Estadual de Campinas</br>
-      ²Universidade de São Paulo</br>
-      ³Instituto Nacional de Pesquisas Espaciais</br>
-      ⁴Universidade Federal do Rio de Janeiro
+        <p>
+          ¹Universidade Estadual de Campinas</br>
+          ²Universidade de São Paulo</br>
+          ³Instituto Nacional de Pesquisas Espaciais</br>
+          ⁴Universidade Federal do Rio de Janeiro
+        </p>
+      
     </div>
 </div> 
 </section>
 
-<!-- seção Resumo -->
-<section>
-  <div class="resumo">
+<!-- seção resumo -->
+<section class="resumo">
+  <div class="caixa__resumo">
     Resumo
   </div>
 
@@ -136,5 +143,63 @@
   </div>
 </section>
 
+<!-- seção formulário -->
+<section class="formulario">
+
+  <div class="discussoes">
+    Discussões
+  </div>
+  
+  <div class="caixa__topico">
+    <h3>Compartilhe seu feedback com os autores!</h3>
+      <div class="img__topico">
+        <img src="img/ambiente.png" alt="imagem que remete a cuidados com o meio ambiente" width="50" class="topico__img1">
+        <img src="img/ideia.png" alt="imagem de duas pessoas tendo idéias" width="50" class="topico__img2">
+        <img src="img/qa.png" alt="imagem que remete a perguntas e respostas" width="50" class="topico__img3">
+      </div>
+    <h5>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor</h5>
+  
+
+    <div class="caixa-botao__formulario">
+      <button class="botao__formulario"> + criar tópico</button>
+    </div>  
+  </div>
+
+</section>
+
+<section class="caixa__qea">
+
+  <div class="caixa-qea__assunto">
+    <h1>Assunto da pergunta aparece aqui</h1>
+    <p>Nome e sobrenome</p>
+    <h3>Começo da pergunta aparece aqui</h3>
+    <button><img src="img/like.png" alt="imagem de um coração simbolizando o botão de like"></button>
+  </div>
+
+  </section>
+
+<footer class="rodape">
+  <div class="rodape__esquerda">
+    <h1 class="rodape__galoa">Galoá</h1>
+    <p>-- anais e proceedings --</p>
+    <form action="https://galoa.com.br/"><input type="submit" value="Saiba mais" class="botao-saiba__mais"></form>
+  </div>
+  
+  <div>
+    <p class="rodape__texto">
+      <strong>Preservar a memória do evento e ampliar o acesso ao conhecimento científico</strong></br>
+      gerado em eventos é a razão de ser da plataforma Galoá Proceedings. </br></br>
+      Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda </br>
+      a comunidade cientifica, mantendo acesso ao debate científico fomentado</br> 
+      pelos encontros e aumentando o impacto do evento.
+    </p>
+  </div>
+</footer>
+
+
+
 </body>
+
+
+
 </html>
