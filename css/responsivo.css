@@ -1,0 +1,30 @@
+@media screen and (max-width: 750px) {
+    
+    .sidebar {
+        width: 0px;
+    }
+
+    .cabecalho {
+        margin-left: 0;
+    }
+
+    .video {
+        margin-left: 0;
+    }
+
+    .resumo {
+        margin-left: 0;
+    }
+
+    .formulario {
+        margin-left: 0;
+    }
+
+    .caixa__qea {
+        margin-left: 0;
+    }
+
+    .rodape {
+        margin-left: 0;
+    }
+}
