@@ -62,6 +62,12 @@
     cursor: pointer;
 }
 
+.botao__formulario:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
 .caixa-botao__formulario {
     display: flex;
     justify-content: center;  
