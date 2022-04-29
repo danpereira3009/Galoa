@@ -5,6 +5,10 @@
     background-color: #FDF1EB;
 }
 
+.cabecalho__texto {
+margin-left: 250px;
+}
+
 .texto__cabecalho-1 {
     font-size: 18px;
 }

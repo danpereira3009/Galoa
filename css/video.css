@@ -1,12 +1,19 @@
 .video {
     display: flex;
-    justify-content: center;
-    padding: 15px;
+    padding: 20px;
+    /* border: solid 1px black; */
 }
 
 .painel__video {
-    height: 100%;
-    width: 250px
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 230px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
 }
 
 .texto__video {
@@ -14,22 +21,16 @@
     margin-bottom: 20px;
 }
 
-h5 {
-    display: flex;
-    justify-content: center;
-}
-
-.botoes {
-    display: flex;
-    justify-content: center;
+.painel__video h5 {
+    margin-left: 16px;
 }
 
 .botao__download {
     background-color: #ED7839;
     padding: 10px;
-    border-radius: 5%;
+    border-radius:100%;
+    border-style: none;
     color: white;
-    width: 80px;
     margin-bottom: 10px;
     cursor: pointer;
 }
