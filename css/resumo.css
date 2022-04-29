@@ -1,23 +1,25 @@
-.resumo {
-    margin-left: 270px;
-    width: 64em;
-    height: 10em;
-    border: 1px solid #FDF1EB;
-    margin-bottom: 10em;
-}
-
 .caixa__resumo {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    border: solid 1px #ECECEC;
+    margin: 20px 0 25px 0;
+    width: 64em;
+    height: 20em;
+}
+   
+.caixa__texto___resumo {
     padding: 15px;
     background-color: #FDF1EB;
     font-weight: bold;
     font-size: 20px;
     border: 1px solid #ECECEC;
 }
-    
-.resumo__texto {
+
+.caixa__texto {
     padding: 15px;
-    background-color: white;
-    font-weight: normal;
-    font-size: 20px;
-    border: 1px solid #ECECEC;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
 }

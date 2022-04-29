@@ -1,13 +1,8 @@
 .cabecalho {
-    margin-left: 270px;
     display: flex;
     justify-content: space-between;
     padding: 15px;
     background-color: #FDF1EB;
-    font-weight: bold;
-    font-size: 20px;
-    border: 1px solid #ECECEC;
-    width: 50em;
 }
 
 .texto__cabecalho-1 {
@@ -23,6 +18,7 @@
 }
 
 .login {
+    margin-right: 20px;
     display: flex;
     padding: 10px;
 }

@@ -1,8 +1,11 @@
 .caixa__qea {
-    margin-left: 270px;
-    border: 1px solid #ECECEC;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: solid 1px #ECECEC;
+    margin-bottom: 20px;
     width: 64em;
-    height: 12em;
+    height: 15em;
 }
  
 .caixa-qea__assunto h1 {

@@ -17,14 +17,16 @@
     <link rel="stylesheet" href="css/qea.css">
     <link rel="stylesheet" href="css/responsivo.css">
     
-
 </head>
 
+<body>
+
 <header>
+
   <!-- seção do cabeçalho -->
 <section class="cabecalho">
   
-		<div>
+		<div class>
       <p class="texto__cabecalho-1">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
       <h1 class="texto__cabecalho-2">Anais do 13º Simpósio Latino Americano de Ciências de Alimnentos</h1>
       <p class="texto__cabecalho-3">ISSN: 1234-5678</p>  
@@ -53,8 +55,7 @@
 </section>
 </header>
 
-<body>
-<section class="sidebar">
+<!-- <section class="sidebar">
   <nav>
     <img class="img__sidebar1" src="img/nav_img1.png" alt="SLACA 2019"></br>
     <img class="img__sidebar2" src="img/nav-img2.png" alt="logo">
@@ -67,7 +68,7 @@
       <li><a class="sidebar__nav" href="#" target="_blank">Contato</a></li>
     </ul>
   </nav>
-</section>
+</section> -->
 
 <!-- seção do painel com vídeo e textos -->
 
@@ -122,29 +123,36 @@
 </section>
 
 <!-- seção resumo -->
-<section class="resumo">
-  <div class="caixa__resumo">
-    Resumo
-  </div>
 
-  <div class="resumo__texto">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. 
-    Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. 
-    Fusce auctor eros sed magna ultricies gravida. 
-    Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. 
-    Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  
-    Phasellus condimentum orci id leo condimentum lobortis et non lorem. 
-    Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, 
-    ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum 
-    lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula 
-    in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum 
-    nisl, vel aliquet enim accumsan sit ametl accumsant...
+<section class="container">
+
+  <div class="caixa__resumo">
+    <div class="caixa__texto___resumo">
+      Resumo
+    </div>
+  
+    <div class="caixa__texto">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. 
+      Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. 
+      Fusce auctor eros sed magna ultricies gravida. 
+      Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. 
+      Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  
+      Phasellus condimentum orci id leo condimentum lobortis et non lorem. 
+      Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, 
+      ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum 
+      lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula 
+      in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum 
+      nisl, vel aliquet enim accumsan sit ametl accumsant...
+    </div>
   </div>
+  
 </section>
 
 <!-- seção formulário -->
-<section class="formulario">
+<section class="container">
+
+<div class="formulario">
 
   <div class="discussoes">
     Discussões
@@ -157,43 +165,51 @@
         <img src="img/ideia.png" alt="imagem de duas pessoas tendo idéias" width="50" class="topico__img2">
         <img src="img/qa.png" alt="imagem que remete a perguntas e respostas" width="50" class="topico__img3">
       </div>
-    <h5>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor</h5>
+    <h5>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? </br>
+      Deixe seus questionamentos ou sugestões para o autor</h5>
   
-
     <div class="caixa-botao__formulario">
       <button class="botao__formulario"> + criar tópico</button>
     </div>  
   </div>
-
+</div>
 </section>
 
-<section class="caixa__qea">
+<!-- Seção Q&A -->
 
+<section class="container">
+
+<div class="caixa__qea">
   <div class="caixa-qea__assunto">
     <h1>Assunto da pergunta aparece aqui</h1>
     <p>Nome e sobrenome</p>
     <h3>Começo da pergunta aparece aqui</h3>
     <button><img src="img/like.png" alt="imagem de um coração simbolizando o botão de like"></button>
   </div>
+</div>
 
-  </section>
+</section>
 
-<footer class="rodape">
-  <div class="rodape__esquerda">
-    <h1 class="rodape__galoa">Galoá</h1>
-    <p>-- anais e proceedings --</p>
-    <form action="https://galoa.com.br/" target="_blank"><input type="submit" value="Saiba mais" class="botao-saiba__mais"></form>
+<footer class="container">
+
+  <div class="rodape">
+    <div class="rodape__esquerda">
+      <h1 class="rodape__galoa">Galoá</h1>
+      <p>-- anais e proceedings --</p>
+      <form action="https://galoa.com.br/" target="_blank"><input type="submit" value="Saiba mais" class="botao-saiba__mais"></form>
+    </div>
+    
+    <div class="rodape__texto">
+      <p><strong>Preservar a memória do evento e ampliar o acesso ao conhecimento científico</strong></br>
+        gerado em eventos é a razão de ser da plataforma Galoá Proceedings. </br>
+        Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda </br>
+        a comunidade cientifica, mantendo acesso ao debate científico fomentado</br> 
+        pelos encontros e aumentando o impacto do evento.
+      </p>
+    </div>
+
   </div>
-  
-  <div>
-    <p class="rodape__texto">
-      <strong>Preservar a memória do evento e ampliar o acesso ao conhecimento científico</strong></br>
-      gerado em eventos é a razão de ser da plataforma Galoá Proceedings. </br></br>
-      Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda </br>
-      a comunidade cientifica, mantendo acesso ao debate científico fomentado</br> 
-      pelos encontros e aumentando o impacto do evento.
-    </p>
-  </div>
+
 </footer>
 
 

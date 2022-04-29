@@ -1,9 +1,11 @@
 .formulario {
-    margin-left: 270px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    border: solid 1px #ECECEC;
+    margin-bottom: 30px;
+    height: 25em;
     width: 64em;
-    height: 20em;
-    border: 1px solid #ECECEC;
-    margin-bottom: 5em;
 }
 
 .discussoes {
@@ -24,8 +26,6 @@
     background-color: white;
     font-weight: normal;
     font-size: 20px;
-    border: 1px solid #ECECEC;
-    /* border: 1px solid #ECECEC; */
 }
 
 .img__topico {
