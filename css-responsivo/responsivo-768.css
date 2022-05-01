@@ -4,6 +4,24 @@
         /* background: pink; */
     }
 
+
+    /* Cabeçalho */
+
+    .cabecalho {
+        flex-direction: row;
+    }
+
+    .login {
+        margin-left: 0;
+    }
+    
+  
+    .idiomas {
+        margin-left: 0;
+    }
+
+    /* Rodapé */
+
     .rodape {
         flex-direction: row;
     }

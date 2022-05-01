@@ -3,6 +3,24 @@
         /* background: blue; */
     }
 
+                /* cabeçalho */
+
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .login {
+        margin-left: 250px;
+    }
+    
+  
+    .idiomas {
+        margin-left: 250px;
+    }
+
+        /* rodapé */
+
+
     .rodape {
         flex-direction: column;
     }
