@@ -1,11 +1,10 @@
 .formulario {
     display: flex;
-    align-self: center;
     flex-direction: column;
     border: solid 1px #ECECEC;
-    margin-bottom: 30px;
-    height: 25em;
+    margin: 10px 0 25px 0;
     width: 64em;
+    box-sizing: border-box;
 }
 
 .discussoes {
@@ -22,7 +21,6 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 15px;
     background-color: white;
     font-weight: normal;
     font-size: 20px;
@@ -55,10 +53,8 @@
     padding: 10px;
     border-radius: 5%;
     color: white;
-    width: 80px;
     margin-bottom: 15px;
     margin-top: 15px;
-    width: 8em;
     cursor: pointer;
 }
 

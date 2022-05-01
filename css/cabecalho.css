@@ -6,19 +6,19 @@
 }
 
 .cabecalho__texto {
-margin-left: 250px;
+    margin-left: 250px;
 }
 
 .texto__cabecalho-1 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .texto__cabecalho-2 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .texto__cabecalho-3 {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .login {

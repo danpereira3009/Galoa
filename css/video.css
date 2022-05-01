@@ -1,7 +1,10 @@
 .video {
     display: flex;
-    padding: 20px;
-    /* border: solid 1px black; */
+    justify-content: space-between;
+    width: 64em;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1px #ECECEC;
 }
 
 .painel__video {
@@ -9,6 +12,11 @@
     justify-content: center;
     flex-direction: column;
     width: 230px;
+}
+
+.video__play {
+    width: 50em;
+    height: 25em;
 }
 
 .botao {
@@ -19,10 +27,12 @@
 .texto__video {
     color: #ED7839;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .painel__video h5 {
-    margin-left: 16px;
+    margin-left: 30px;
+    font-size: 10px;
 }
 
 .botao__download {
@@ -33,6 +43,7 @@
     color: white;
     margin-bottom: 10px;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .botao__download:hover {

@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+
+    body {
+        /* background: pink; */
+    }
+
+    .rodape {
+        flex-direction: row;
+    }
+
+    .rodape__texto {
+        margin-left: 1em;
+    }
+
+
+}

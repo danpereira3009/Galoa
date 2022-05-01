@@ -1,12 +1,11 @@
 .caixa__resumo {
     display: flex;
-    align-self: center;
     flex-direction: column;
     border: solid 1px #ECECEC;
-    margin: 20px 0 25px 0;
+    margin: 20px 0 10px 0;
     width: 64em;
-    height: 20em;
-}
+    box-sizing: border-box;
+} 
    
 .caixa__texto___resumo {
     padding: 15px;
@@ -19,7 +18,7 @@
 .caixa__texto {
     padding: 15px;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
 }
