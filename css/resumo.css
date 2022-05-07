@@ -6,6 +6,10 @@
     width: 64em;
     box-sizing: border-box;
 } 
+
+.caixa__resumo.active {
+    margin-left: 180px;
+}
    
 .caixa__texto___resumo {
     padding: 15px;

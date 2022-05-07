@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.formulario.active {
+    margin-left: 180px;
+}
+
 .discussoes {
     padding: 15px;
     background-color: #FDF1EB;

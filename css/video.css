@@ -8,6 +8,10 @@
     margin-top: 20px;
 }
 
+.video.active {
+    margin-left: 180px;
+}
+
 .painel__video {
     display: flex;
     justify-content: center;

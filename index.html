@@ -66,25 +66,29 @@
 
   <div class="btn__sidebar">
     <img class="img__sidebar1" src="img/nav_img1.png" alt="SLACA 2019"></br>
-    <i class='bx bx-menu' id="btn"></i>
+    <i class='bx bx-right-arrow-alt' id="btn"></i>
   </div>
     
-  <div>
+  <div >
     <img class="img__sidebar2" src="img/nav-img2.png" alt="logo">
   </div>
 
   <div class="nav">
     <ul>
+      <i class='bx bx-slideshow' id="icone__sidebar"></i>
       <li><a class="sidebar__nav" href="#" target="_blank">Apresentação</a></li>
+      <i class='bx bx-group' id="icone__sidebar"></i>
       <li><a class="sidebar__nav" href="#" target="_blank">Comitês</a></li>
+      <i class='bx bx-edit-alt' id="icone__sidebar"></i>
       <li><a class="sidebar__nav" href="#" target="_blank">Autores</a></li>
-      <li><a class="sidebar__nav" href="#" target="_blank">Eixo Temáticos</a></li>
+      <i class='bx bx-book-open' id="icone__sidebar"></i>
+      <li><a class="sidebar__nav" href="#" target="_blank">Temáticos</a></li>
+      <i class='bx bx-briefcase' id="icone__sidebar"></i>
       <li><a class="sidebar__nav" href="#" target="_blank">Trabalhos</a></li>
+      <i class='bx bxs-contact' id="icone__sidebar"></i>
       <li><a class="sidebar__nav" href="#" target="_blank">Contato</a></li>
     </ul>
-
   </div>
-
   
 </section>
 
@@ -239,10 +243,22 @@
   let btn = document.querySelector("#btn")
   let sidebar = document.querySelector(".sidebar")
   let cabecalho__texto = document.querySelector(".cabecalho__texto")
+  let img__sidebar2 = document.querySelector(".img__sidebar2")
+  let video = document.querySelector(".video")
+  let caixa__resumo = document.querySelector(".caixa__resumo")
+  let formulario = document.querySelector(".formulario")
+  let caixa__qea = document.querySelector(".caixa__qea")
+  let rodape = document.querySelector(".rodape")
 
   btn.onclick = function() {
     sidebar.classList.toggle("active")
     cabecalho__texto.classList.toggle("active")
+    img__sidebar2.classList.toggle("active")
+    video.classList.toggle("active")
+    caixa__resumo.classList.toggle("active")
+    formulario.classList.toggle("active")
+    caixa__qea.classList.toggle("active")
+    rodape.classList.toggle("active")
   }
   
   </script>
