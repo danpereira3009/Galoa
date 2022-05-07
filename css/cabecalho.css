@@ -6,6 +6,10 @@
 }
 
 .cabecalho__texto {
+    margin-left: 50px;
+}
+
+.cabecalho__texto.active {
     margin-left: 250px;
 }
 

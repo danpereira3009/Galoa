@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
     <title>Projeto Estágio</title>
+    
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cabecalho.css">
@@ -59,9 +63,17 @@
 </header>
 
 <section class="sidebar">
-  <nav>
+
+  <div class="btn__sidebar">
     <img class="img__sidebar1" src="img/nav_img1.png" alt="SLACA 2019"></br>
+    <i class='bx bx-menu' id="btn"></i>
+  </div>
+    
+  <div>
     <img class="img__sidebar2" src="img/nav-img2.png" alt="logo">
+  </div>
+
+  <div class="nav">
     <ul>
       <li><a class="sidebar__nav" href="#" target="_blank">Apresentação</a></li>
       <li><a class="sidebar__nav" href="#" target="_blank">Comitês</a></li>
@@ -70,7 +82,10 @@
       <li><a class="sidebar__nav" href="#" target="_blank">Trabalhos</a></li>
       <li><a class="sidebar__nav" href="#" target="_blank">Contato</a></li>
     </ul>
-  </nav>
+
+  </div>
+
+  
 </section>
 
 <!-- seção do painel com vídeo e textos -->
@@ -219,6 +234,18 @@
 
 </footer>
 
-</body>
+<script>
 
+  let btn = document.querySelector("#btn")
+  let sidebar = document.querySelector(".sidebar")
+  let cabecalho__texto = document.querySelector(".cabecalho__texto")
+
+  btn.onclick = function() {
+    sidebar.classList.toggle("active")
+    cabecalho__texto.classList.toggle("active")
+  }
+  
+  </script>
+
+</body>
 </html>
