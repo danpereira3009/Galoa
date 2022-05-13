@@ -25,7 +25,6 @@
 }
 
 #btn:hover {
-    color: red;
     background-color: white;
     color: black;
     transition: .5s;
@@ -76,7 +75,7 @@ ul {
     border: solid 1px rgb(214, 201, 201);
 }
 
-#icone__sidebar {
+#icones__sidebar {
     position: absolute;
     font-size: 1.6em;
     margin-top: .5rem;
@@ -86,6 +85,9 @@ ul {
     color: white;
 }
 
-.btn__contato {
-    display: flex;
+#icones__sidebar:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
 }
